@@ -1,0 +1,621 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Builds
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Sistema
+Thumbs.db
+
+# Banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+database/backups/*.sql
+!database/backups/.gitkeep
+
+# Testes
+coverage/
+.nyc_output/
+
+# Documentação
+docs/_build/
+
+# Docker
+docker-compose.override.yml
+
+# Sistema operacional
+# Windows
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon
+Icon
+
+# Thumbs
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Arquivos do sistema
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Listas de diretórios
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Backend específico
+backend/.env
+backend/logs/
+backend/coverage/
+
+# Frontend específico
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.cache/
+frontend/.parcel-cache/
+
+# Build outputs
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+
+# Dependências do frontend
+frontend/node_modules/
+frontend/.npm
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.turbopack
+frontend/.turbo
+
+# Configurações do sistema
+frontend/.vscode/
+frontend/.idea/
+
+# Logs do desenvolvimento
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Runtime data
+frontend/pids
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+
+# Coverage directory used by tools like istanbul
+frontend/coverage
+frontend/*.lcov
+
+# nyc test coverage
+frontend/.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+frontend/.grunt
+
+# Bower dependency directory (https://bower.io/)
+frontend/bower_components
+
+# node-waf configuration
+frontend/.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+frontend/build/Release
+
+# Dependency directories
+frontend/jspm_packages/
+
+# TypeScript cache
+frontend/*.tsbuildinfo
+
+# Optional npm cache directory
+frontend/.npm
+
+# Optional eslint cache
+frontend/.eslintcache
+
+# Microbundle cache
+frontend/.rpt2_cache/
+frontend/.rts2_cache_cjs/
+frontend/.rts2_cache_es/
+frontend/.rts2_cache_umd/
+
+# Optional REPL history
+frontend/.node_repl_history
+
+# Output of 'npm pack'
+frontend/*.tgz
+
+# Yarn Integrity file
+frontend/.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+frontend/.cache
+frontend/.parcel-cache
+
+# Next.js build output
+frontend/.next
+frontend/out
+
+# Nuxt.js build / generate output
+frontend/.nuxt
+frontend/dist
+
+# Gatsby files
+frontend/.cache/
+frontend/public
+
+# VuePress build output
+frontend/.vuepress/dist
+
+# Serverless directories
+frontend/.serverless/
+
+# FuseBox cache
+frontend/.fusebox/
+
+# DynamoDB Local files
+frontend/.dynamodb/
+
+# TernJS port file
+frontend/.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+frontend/.vscode-test
+
+# yarn v2
+frontend/.yarn/cache
+frontend/.yarn/unplugged
+frontend/.yarn/build-state.yml
+frontend/.yarn/install-state.gz
+frontend/.pnp.*
+
+# Arquivos temporários
+*.tmp
+*.temp
+temp/
+
+# Arquivos de configuração local
+config.local.*
+settings.local.*
+
+# Arquivos de usuário
+.user.ini
+
+# Arquivos de cache do sistema
+.cache/
+
+# Arquivos de projeto específicos
+.project
+.classpath
+.settings/
+
+# Arquivos de workspace
+*.code-workspace
+
+# Arquivos de extensão do VS Code
+.vscode/extensions.json
+
+# Arquivos de debug
+debug.log
+
+# Arquivos de sessão
+.session
+
+# Arquivos de variáveis de ambiente pessoais
+.env.personal
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de swap do sistema
+*.swp
+*.swo
+
+# Arquivos temporários do sistema
+*.tmp
+*.temp
+
+# Arquivos de dump do banco
+dump.sql
+backup.sql
+
+# Arquivos de exportação
+export/
+exports/
+
+# Arquivos de importação
+import/
+imports/
+
+# Arquivos de migração
+migrations/*.sql
+!migrations/init.sql
+
+# Arquivos de seed
+seeds/
+seed.sql
+
+# Arquivos de teste de banco
+test.db
+
+# Arquivos de performance
+*.perf
+profile.out
+
+# Arquivos de bundle analysis
+stats.html
+stats.json
+
+# Arquivos de source maps
+*.map
+
+# Arquivos de bundle
+*.bundle.js
+
+# Arquivos de chunk
+*.chunk.js
+
+# Arquivos de hot update
+*.hot-update.js
+*.hot-update.json
+
+# Service worker
+service-worker.js
+sw.js
+
+# Workbox
+workbox-*
+
+# PWA
+manifest.json
+sw.js
+service-worker.js
+
+# Android
+*.apk
+*.ap_
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Windows
+*.exe
+*.msi
+
+# Linux
+*.deb
+*.rpm
+
+# macOS
+*.dmg
+
+# Playwright
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Jest
+/jest-cache/
+
+# Puppeteer
+.local-chromium/
+
+# Selenium
+*.jar
+
+# Test snapshots
+__snapshots__/
+
+# Certificados SSL
+*.pem
+*.key
+*.crt
+*.csr
+
+# Arquivos de configuração sensíveis
+*.config.js
+*.config.ts
+
+# Arquivos de deploy
+deploy.sh
+deploy.ps1
+
+# Arquivos de docker
+docker-compose.override.yml
+docker-compose.prod.yml
+
+# Arquivos de kubernetes
+k8s/
+
+# Arquivos de terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Arquivos de ansible
+ansible.cfg
+hosts
+
+# Arquivos de vagrant
+.vagrant/
+
+# Arquivos de packer
+packer_cache/
+
+# Arquivos de CI/CD
+.circleci/
+.travis.yml
+.gitlab-ci.yml
+.github/workflows/
+.gitlab/merge_request_templates/
+
+# Arquivos de documentação gerada
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Arquivos de Sphinx
+_build/
+
+# Arquivos de MkDocs
+site/
+
+# Arquivos de Jekyll
+_site/
+.jekyll-cache/
+
+# Arquivos de Hugo
+public/
+
+# Arquivos de Gatsby
+.cache/
+public
+
+# Arquivos de Docusaurus
+.build/
+.website/
+
+# Arquivos de GitBook
+_book/
+
+# Arquivos de ReadTheDocs
+.readthedocs.yml
+
+# Arquivos de código fonte minificado/compactado
+*.min.js
+*.min.css
+
+# Arquivos de fonte
+*.woff
+*.woff2
+*.eot
+*.ttf
+*.otf
+
+# Arquivos de imagem otimizados
+*.webp
+*.avif
+
+# Arquivos de vídeo
+*.mp4
+*.webm
+*.ogv
+
+# Arquivos de áudio
+*.mp3
+*.wav
+*.ogg
+
+# Arquivos de fonte de ícones
+icons/
+fonts/
+
+# Arquivos de tradução
+*.po
+*.mo
+
+# Arquivos de localização
+locale/
+translations/
+
+# Arquivos de internacionalização
+i18n/
+
+# Arquivos de cache do sistema
+.cache/
+
+# Arquivos temporários do usuário
+/tmp/
+
+# Arquivos de swap do editor
+*.swp
+*.swo
+
+# Arquivos de backup do editor
+*~
+
+# Arquivos de projeto do NetBeans
+nbproject/
+
+# Arquivos de projeto do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos de projeto do IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Arquivos de projeto do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de projeto do Xcode
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcuserdata/
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+
+# Arquivos de projeto do Android Studio
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+
+# Arquivos de projeto do Flutter
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Arquivos de projeto do React Native
+android/.gradle/
+android/app/build/
+android/build/
+ios/build/
+ios/Pods/
+.expo/
+
+# Arquivos de projeto do Unity
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Arquivos de projeto do Unreal Engine
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Arquivos de projeto do Godot
+*.import
+
+# Arquivos de projeto do Blender
+*.blend1
+*.blend2
+
+# Arquivos de projeto do Adobe
+*.psd
+*.ai
+*.indd
+
+# Arquivos de projeto do Microsoft Office
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Arquivos de projeto do LibreOffice
+.~lock.*
+
+# Arquivos de cache do sistema
+System Volume Information/
+
+# Arquivos do Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos do Linux
+*~
+
+# Arquivos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
